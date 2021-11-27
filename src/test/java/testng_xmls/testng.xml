@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SpriteCloudAssignment" verbose="2"
+	configfailurepolicy="continue">
+	<test name="ToolsQA website tests" preserve-order="true">
+		<parameter name="DemoQAURL" value="https://demoqa.com/" />
+		<parameter name="ToolsQAURL" value="https://www.toolsqa.com/" />
+		<classes>
+			<class name="spriteCloudUITests.DemoQAUITests" />
+			<class name="spriteCloudUITests.ToolsQAUITests"/>
+		</classes>
+	</test>
+</suite> 
